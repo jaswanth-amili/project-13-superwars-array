@@ -53,7 +53,7 @@ const buildPlayers = (players, type) => {
 		.filter((player) => player.type.toLowerCase() == type.toLowerCase())
 		.map((player, i) => {
 			return `<div class="player">
-                <img src="${player.image}">
+                <img src="${player.image}" alt="">
                 <div class="name">${player.name}</div>
                 <div class="strength">${player.strength}</div>
             </div>`;
